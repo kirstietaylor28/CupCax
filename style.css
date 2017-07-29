@@ -1,0 +1,124 @@
+header {
+
+	color: #fff;
+	height: 112px;
+	line-height: 112px;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+header a .logo {
+	float: left;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul li {
+	padding-left: 30px;
+}
+
+header nav ul li a {
+	color: brown;
+	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+	color: black;
+	text-decoration: none;
+}
+
+/* Slider Section */
+
+.slider-background {
+	background-color: white;
+}
+
+.slider ul.slider-carousel li h1 {
+	margin-bottom: 30px;
+	margin-top: 250px;
+	color: #fff;
+}
+
+.slider ul.slider-carousel li p {
+	margin-bottom: 50px;
+}
+
+.slider, .slider ul.slider-carousel, .slider ul.slider-carousel li {
+	height: 600px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+.slider ul.slider-carousel li a {
+	padding: 15px 20px;
+	margin-right: 10px;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.slider ul.slider-carousel li a:last-child {
+	margin-right: 0px;
+}
+
+.slider ul.slider-carousel li a:hover {
+	background-color: #fbd0d0;
+}
+
+.img1 {
+	background: url(images/cupcake1.jpg);
+	background-size: cover !important;
+}
+
+.img2 {
+	background: url(images/cupcake3.jpg);
+	background-size: cover !important;
+}
+
+.img3 {
+	background: url(images/cupcake2.jpg);
+	background-size: cover !important;
+}
+
+.slider ul.sliderpager li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.slider ul.sliderpager li a{
+	color: brown;
+}
+
+.slider ul.sliderpager li.selected a{
+	color: #e74c3c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
